@@ -27,22 +27,8 @@ requirements:
     - python >=3.6
     - scikit-learn >=0.21.3
     - scipy 
-    - pytorch >=1.4.*
-    # - xgboost >=0.90
-    # - torch >=1.4
-    # - skl2onnx >=1.7.0
-    # - pytest 
-    # - pyspark <3.1.2,>=2.4.4
-    # - pyarrow >1.0
-    # - prophet ==1.0.1
-    # - pre-commit 
-    # - onnxruntime >=1.0.0
-    # - onnxmltools >=1.6.0
-    # - memory-profiler 
-    # - lightgbm >=2.2
-    # - flake8 
-    # - coverage 
-
+    - pytorch >=1.4
+    
 test:
   imports:
     - hummingbird.ml
