@@ -1,5 +1,5 @@
 {% set name = "hummingbird-ml" %}
-{% set version = "0.4.2" %}
+{% set version = "0.4.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hummingbird-ml-{{ version }}.tar.gz
-  sha256: e73b639f5d8e18d22130a8f6d2b5b556603659de1dd1f17dba0416892ee8a274
+  sha256: 8a5b6fe74e32460ada638081c31f9b978880855786874dac0a6c0c8822efffb1
 
 build:
   number: 0
@@ -28,6 +28,19 @@ requirements:
     - scikit-learn >=0.21.3
     - scipy 
     - pytorch >=1.4
+    # - xgboost >=0.90
+    # - skl2onnx >=1.7.0
+    # - pytest 
+    # - pyspark <3.1.2,>=2.4.4
+    # - pyarrow >1.0
+    # - prophet ==1.0.1
+    # - pre-commit 
+    # - onnxruntime >=1.0.0
+    # - onnxmltools >=1.6.0
+    # - memory-profiler 
+    # - lightgbm >=2.2
+    # - flake8 
+    # - coverage 
     # - xgboost >=0.90
     # - skl2onnx >=1.7.0
     # - pytest 
