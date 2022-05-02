@@ -20,7 +20,6 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - torch >=1.4
     - dill
     - numpy >=1.15
     - onnxconverter-common >=1.6.0
