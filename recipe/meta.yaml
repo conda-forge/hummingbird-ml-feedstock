@@ -1,5 +1,5 @@
 {% set name = "hummingbird-ml" %}
-{% set version = "0.4.4" %}
+{% set version = "0.4.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hummingbird-ml-{{ version }}.tar.gz
-  sha256: 8a5b6fe74e32460ada638081c31f9b978880855786874dac0a6c0c8822efffb1
+  sha256: afdaaa35a3e4bde508737fd69def70185ca78c7d140b404148fc7f3fdff0be99
 
 build:
   number: 0
@@ -20,14 +20,15 @@ requirements:
     - pip
     - python >=3.6
   run:
+    - protobuf >=3.20.0,<=3.20.1
     - dill
     - numpy >=1.15
-    - onnxconverter-common >=1.6.0
+    - onnxconverter-common >=1.6.0,<=1.11.0
     - psutil
     - python >=3.6
-    - scikit-learn >=0.21.3
+    - scikit-learn
     - scipy
-    - pytorch >=1.4
+    - pytorch >1.7.0
     # - xgboost >=0.90
     # - skl2onnx >=1.7.0
     # - pytest 
