@@ -1,11 +1,11 @@
-About hummingbird-ml
-====================
+About hummingbird-ml-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hummingbird-ml-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/microsoft/hummingbird
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hummingbird-ml-feedstock/blob/main/LICENSE.txt)
 
 Summary: Convert trained traditional machine learning models into tensor computations
 
