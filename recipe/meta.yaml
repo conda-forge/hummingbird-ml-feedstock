@@ -1,5 +1,5 @@
 {% set name = "hummingbird-ml" %}
-{% set version = "0.4.8" %}
+{% set version = "0.4.9" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hummingbird-ml-{{ version }}.tar.gz
-  sha256: 29a22ac489b75ac3eba4aafc5d9f2d19ec2b9b02417095c2652b3490f5cd632a
+  sha256: a3037fa15d9e1bd11a28fd2b5ff3f887f1ba7775487d39b027237d78f3523b1c
 
 build:
   number: 0
