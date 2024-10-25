@@ -1,5 +1,5 @@
 {% set name = "hummingbird-ml" %}
-{% set version = "0.4.11" %}
+{% set version = "0.4.12" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hummingbird-ml-{{ version }}.tar.gz
-  sha256: 2406afba71f744e637efa37221ac5f1ffedc96efd19c1baf3033ba36b50c703e
+  sha256: 0e3486ec5867631e3e86d092780ca7d4164999e7ea85cf7b6985b3aff21f193b
 
 build:
   number: 0
@@ -20,6 +20,7 @@ requirements:
     - pip
     - python >=3.6
   run:
+    - onnx <=1.16.1
     - protobuf >=3.20.2
     - dill
     - numpy >=1.15
